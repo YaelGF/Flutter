@@ -16,9 +16,11 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title: Text("Login"),
       ),
-      body: Column(children:[
-        _formularioLogin(),
-      ],)
+      body: Column(
+        children:[
+          _formularioLogin(),
+        ],
+      )
     );
   }
 
